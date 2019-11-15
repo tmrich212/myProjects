@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 90%;
+    height: 10vh;
+    margin: 0px 0px 15px 20px;
+    position: fixed;
+}
+
+.header-container{
+    flex: 1;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.blog-container{
+    align-content: center;
+}
+
+.blog-name{
+    text-align: center;
+    margin: 20px 0px 10px 0px;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    margin: 25px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+nav{
+   flex: 1;
+   
+}
+
+.nav-links{
+    justify-content: space-around;
+    list-style: none; 
+}
+
+.nav-link{
+    color: grey;
+    font-size: 18px;
+    text-decoration: none;
+    display: inline; 
+    letter-spacing: 2px;
+}
+
+.nav-link:hover{
+    color: mediumpurple;
+}
+
+.intro{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+h1{
+   
+    font-weight: 100;
+    text-align: center;
+}
+
+p{
+    margin: 30px 200px;
+    padding: 0 auto;
+    text-indent: 40px;
+    line-height: 5vh;
+    text-align: left;
+}
+
+footer{
+    background-color: mediumpurple;
+    color: white;
+    text-align: center;
+    height: 10vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+
+@media screen and (max-width: 1024px){
+    .presentation{
+        flex-direction: column;
+    }
+    .introduction{
+        margin-top: 5vh;
+        text-align: center;
+        }
+    .intro-text h1{
+        font-size: 30px;
+    }
+    .intro-text{
+        font-size: 18px;
+    }
+    .cta {
+        padding: 10px 0px 0px 0px;
+    }
+    .cover img{
+        height: 80%;
+    }
+}
